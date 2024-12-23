@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+.purchasepagemain{
+    width: 100%;
+    overflow: hidden;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.purchasepagebody{
+    width:90%;
+}
+
+.paymentsuccess{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.paymentsuccess video{
+    width: 25%;
+    border-radius: 50%;
+}
+
+.paymentsuccess p{
+    font-size: xx-large;
+    font-family: "New Amsterdam", sans-serif;
+    color: white;
+}

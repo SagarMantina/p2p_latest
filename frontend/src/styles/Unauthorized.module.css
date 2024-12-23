@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .statusCode {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ff4d4d;
+  }
+  
+  .text {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .loginButton,
+  .homeButton {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loginButton {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .homeButton {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .loginButton:hover {
+    background-color: #45a049;
+  }
+  
+  .homeButton:hover {
+    background-color: #1976d2;
+  }
+  

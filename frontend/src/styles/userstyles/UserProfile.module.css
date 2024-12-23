@@ -1,0 +1,113 @@
+.profile-page{
+  width: 60%;
+  position: relative;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-family: "Black Ops One", system-ui;
+  font-weight: 0;
+  margin-bottom: 10px;
+}
+
+.profile-page  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  
+}
+
+.profile-info{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  background:transparent;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255,0.1);
+  backdrop-filter: blur(0px); 
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  color: #fff; 
+}
+
+.profile-info p {
+  width: 50%;
+  font-size: 18px;
+  text-align: left;
+}
+
+.profile-info strong{
+  font-size: larger;
+  text-transform:uppercase;
+}
+
+.profile-edit h2 {
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.profile-edit{
+  width: 80%;
+background:transparent;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(0px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); 
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  color: #fff;
+}
+
+.updateform{
+  background:transparent;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+ .form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f7f8fa;
+  transition: border 0.2s;
+  font-family: "Black Ops One", system-ui;
+  font-size: larger;
+}
+
+.form-group input:focus {
+  border: 1px solid #a29bfe;
+  outline: none;
+}
+
+.profile-edit [type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background:greenyellow;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-family: "Black Ops One", system-ui;
+  font-size: larger;
+}
+
+.profile-edit[type="submit"]:hover {
+  background:greenyellow;
+}

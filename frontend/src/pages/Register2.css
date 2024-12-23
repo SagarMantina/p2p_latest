@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Zen+Dots&display=swap');
+
+.register2 {
+    width: 100vw;
+    min-height: 100vh;
+    background: url(../../public/register_background.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bokor", system-ui;
+}
+
+.register2 .total {
+    width: 28%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: transparent;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.register2 .total .registerform2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.register2 .total .registerform2 .notice {
+    background-color: rgba(255, 255, 0, 0.7);
+    width: 350px;
+    padding: 10px;
+}
+
+.register2 .total h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.register2 .total .registerform2 .inputBx {
+    position: relative;
+    width: 75%;
+    margin: 20px 0 30px 0;
+    height: 50px;
+    border-bottom: 1px solid #fff;
+}
+
+
+
+.register2 .total .registerform2 .inputBx label {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left:2%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.register2 .total .registerform2 .inputBx input:focus~label,
+.register2 .total .registerform2 .inputBx input:valid~label {
+    top: -10px;
+}
+
+.register2 .total .registerform2 .inputBx input {
+    width: 100%;
+    border: none;
+    height: 50px;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    padding: 0 35px 0 5px;
+    background: transparent;
+    position: relative;
+    font-family: "Bokor", system-ui;
+}
+
+.register2 .total .registerform2 .inputBx i{
+    position:absolute;
+    top: 40%;
+    left: 95%;
+}
+
+.register2 .total .registerform2 .register2_button{
+    width: 50%;
+    display: flex;
+    align-items:center;
+}
+
+.register2_button button {
+    width: 90%;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    margin: 20px auto;
+    font-family: "Bokor", system-ui;
+}
+
+.matter p a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.matter p a:hover {
+    text-decoration: none;
+}
+
+.matter p {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+.matter {
+    position: relative;
+    top: -10px;
+    height: 40px;
+}
+
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    width: 20px;
+    height: 20px;
+}
+
+
+
+#togglePassword {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #333;
+    /* Adjust the color as needed */
+    color: white;
+}
+
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+input:-webkit-autofill,
+select:-webkit-autofill:focus {
+    border: none;
+    -webkit-text-fill-color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

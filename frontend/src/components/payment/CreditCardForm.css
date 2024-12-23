@@ -1,0 +1,41 @@
+.creditcardform{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group input{
+    position: relative;
+    left: 15%;
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color:black;
+   font-family: "Chakra Petch", sans-serif;
+    font-size: large;
+}
+
+.row{
+    position: relative;
+    left: 15%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.row .col-6 input{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+   font-family: "Chakra Petch", sans-serif;
+}
+
+

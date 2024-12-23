@@ -1,0 +1,54 @@
+.games-page {
+  padding: 20px;
+  width: 70%;
+  position: relative;
+  left:20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.games-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50; /* Darker shade for the heading */
+  font-family: 'Arial', sans-serif;
+}
+
+
+.games-page .gameslist{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.games-page .gameslist .gameCard{
+  margin-bottom: 5px;
+}
+
+
+.games-page .pagination-controls{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.games-page .pagination-controls button{
+  width: 15%;
+  font-size: larger;
+  color: black;
+}
+
+.games-page .gameCardPrice{
+  width: 15%;
+  position: absolute;
+  left: 75%;
+}
+
+.games-page .gameCardPrice .price{
+  width: 70%;
+}
+
+.games-page .gameCardPrice .cart{
+  display: none;
+}

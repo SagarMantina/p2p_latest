@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Nabla&family=Orbitron:wght@400..900&family=Silkscreen:wght@400;700&display=swap');
+
+.cartPage{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0 ;
+    height: min-content;
+    font-family: "Orbitron", sans-serif;
+}
+
+.cartPage h1{
+    width: 55%;
+    color: white;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    position: relative;
+    left: 6%;
+}
+
+.cartpagemain{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    gap: 80px;
+}
+
+.cartgames{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cartcontrols{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cartcontrols a{
+    text-decoration: none;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-size:medium;   
+}
+
+.cartcontrols button{
+    background-color: gray;
+    padding: 10px;
+    border: beige;
+    color: rgb(222, 218, 218);
+    font-size: medium;
+    cursor: pointer;
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 10;
+    font-size: x-large;
+}
+
+.cartcontrols button:hover{
+    color: white;
+    background-color: rgb(145, 142, 142);
+}
+
+.cartcontrols p{
+    text-decoration: underline;
+    color: gray;
+    cursor: pointer;
+}
+
+.cartcontrols p:hover{
+    text-decoration: underline;
+    color:white;
+}
+
+.emptycart{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptycart a{
+    text-decoration: none;
+}
+
+.emptycart p{
+    color: white;
+    font-size: x-large;
+    font-weight: 10;
+}
+
+.emptycart button{
+    width: 15%;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+    font-size: x-large;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-family:"New Amsterdam", sans-serif ;
+    font-weight: 10;
+}
+
+.emptycart button:hover{
+    width: 15%;
+    background: #86a8e7;
+    color: white;
+}
+
+.emptycart video{
+    width: 25%;
+    border-radius: 50%;
+}
+
+.paymentcard{
+    width: 30%;
+    position: sticky;
+    top: 20px;
+    height: min-content;
+    background-color: #182848;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.estimatedTotal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    margin-bottom: -10px;
+}
+
+.estimatedTotal p{
+    font-size: larger;
+}
+
+.paymentBtn{
+    width:70% ;
+    background:linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
+    border: none;
+    font-size: large;
+    color: white;
+    font-family: "Orbitron", sans-serif ;
+    font-weight: 10;
+    cursor: pointer;
+}
+
+.paymentBtn a{
+    text-decoration: none;
+    color: white;
+}
+
+.paymentBtn:hover{
+    background: #1db8df;
+}
+
+

@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Creepster&family=Rajdhani:wght@300;400;500;600;700&family=Yatra+One&display=swap');
+
+
+
+.gamePage{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: "Creepster", system-ui;
+    font-size: 20px;
+  }
+  
+  .gamePage h1{
+    color:white;
+     font-family: "Creepster", system-ui;
+  }
+
+  .image_info{
+    display: flex;  
+    gap: 10px;
+    justify-content: center;      
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+
+  .image_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+
+  .mainframe{
+    width:100%;
+    position: relative;
+    box-shadow: 0 0 40px #0a0d12;  
+  }
+
+  .mainframe img{
+    width: 100%;
+    height:350px;
+    object-fit: cover;
+  }
+
+  .subImages{
+    display: flex;
+    gap: 3px;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+
+  .subImages img{
+    width: 24.6%;
+    object-fit:cover;
+    padding: 0;
+    margin: 0;
+    height:120px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+  }
+  
+  .infocontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 400px;
+    color: white;
+    padding: 10px;
+    
+  }
+
+  .infocontainer p{
+    width: 100%;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 10;
+  }
+
+  .infocontainer span{
+    color:yellow;
+  }
+
+  .infocontainer img{
+    width: 100%;
+  }
+
+  .cartpurchase{
+    width: 50%;
+    position: relative;
+    right: 12%;
+    background: rgb(89,94,99);
+    background: linear-gradient(90deg, rgba(89,94,99,1) 0%, rgba(37,39,40,1) 0%, rgba(55,61,64,1) 57%, rgba(145,166,184,1) 100%, rgba(205,216,224,1) 100%);
+    border-radius: 8px; /* Rounded corners */
+    padding: 2px; /* Inner padding */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    backdrop-filter: blur(10px); /* Background blur */
+    -webkit-backdrop-filter: blur(15px); /* For Safari */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Border for the frosted effect */
+    color: white;
+  }
+
+  .cartpurchase h1{
+    position: relative;
+    left: 5%;
+  }
+
+  .cartpurchase .price{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 75%;
+    left: 48%;
+    color: white;
+    background-color: black;
+    width: 45%;
+    text-align:top;
+    font-size: 17px;
+    padding: 1px;
+    height: 40px;
+    border-radius: 3px;
+  }
+
+  .cartpurchase button{
+    height: 30px;
+    width: 35%;
+    border-radius: 3px;
+    font-size:100%;
+     font-family: "Creepster", system-ui;
+    font-size: 18px ;
+  }
+
+  .cartpurchase button:hover{
+    cursor: pointer;
+    background-color:#82c01e;
+  }
+
+  .about {
+    width: 50%;
+    color: white;
+    position: relative;
+    right: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+
+  .about h1{
+    position: relative;
+    text-transform: uppercase;
+    right: 29%;
+  }
+
+  .about .mainframe{
+    width: 100%;
+  }
+
+  .about .mainframe img{
+    height: 265px;
+  }
+
+  .about span:hover{
+    cursor: pointer;
+  }
+  .ReviewContainer{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 22%;
+  }
+
+  .ReviewContainer h1{
+    position: relative;
+    text-transform: uppercase;
+    right: 20%;
+  }
+
+  .reviews{
+    width:100% ;
+    position: relative;
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+    color: black;
+  }
+
+  .ReviewBox{
+    display: flex;
+    justify-content:space-around;
+    align-items:start ;
+    position: relative;
+    background-color:limegreen;
+    padding: 1%;
+    margin-bottom:5px;
+    font-size: 15px;
+  }
+
+  .ReviewBox .review_person_image{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+
+  .ReviewBox .review_person_image img{
+    width: 80%;
+    height: 50%;
+    object-fit: center;
+  }
+
+  .review{
+    width: 70%;
+    margin-left: 10px;
+  }
+
+  .overall_rating{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    position: relative;
+    padding-left: 20px;
+    left: 20px;
+    gap: 10px;
+  }
+
+
+  .stars-and-review {
+    gap: 10px;
+  }
+
+  .reviewpostButton{
+    width: 90%;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 10px;
+    background: rgba(36, 32, 32, 0); /* Glass-like transparency */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); /* Glass blur effect */
+    color:black;
+    font-size: 16px;
+    resize: none; /* Disable resizing for consistent appearance */
+    transition: all 0.3s ease;
+    outline: none; /* Remove default outline */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .reviewpostButton:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+    background: rgba(255, 255, 255, 0.3); 
+  }
+  
+  .reviewpostButton:active {
+    transform: scale(0.95); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    background: rgba(255, 255, 255, 0.4);
+  }
+
+  textarea {
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2); /* Glass-like transparency */
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); /* Glass blur effect */
+    color:black;
+    font-size: 16px;
+    resize: none; /* Disable resizing for consistent appearance */
+    transition: all 0.3s ease;
+    outline: none; /* Remove default outline */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  textarea:focus {
+    background: rgba(255, 255, 255, 0.3); /* Slight background change on focus */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on focus */
+    border: 1px solid rgba(255, 255, 255, 0.4); /* Slightly more visible border */
+  }
+
+  /* Styling for the submit button */
+.submitButton {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color:black;
+  font-size: 16px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  outline: none; /* Remove default outline */
+}
+
+.submitButton:hover {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.submitButton:active {
+  transform: scale(0.95); /* Slightly scale down on click */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.toggleReviewsButton{
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color:black;
+  font-size: 16px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  outline: none; /* Remove default outline */
+}
+
+
+.comparisoncontainer {
+  width: 85%;
+  margin-left: 10%;
+  color: white;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: start;
+}
+
+.comparison-table th, .comparison-table td {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.comparison-table th {
+  font-size: 18px;
+}
+
+.comparison-table td {
+  font-size: 23px;
+}
+
+.comparison-table th{
+  width: 15%;
+}
+
+.game-image{
+  width: 100%;  
+  object-fit: cover;
+  object-position: center;
+}
+
+.comparison-table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .comparison-table th, .comparison-table td {
+    padding: 10px;
+  }
+}
+
+
+/* General styling for GamePage components */
+.gamePage {
+  position: relative;
+  padding: 20px;
+  transition: filter 0.3s ease;
+}
+
+/* Background blur effect when popup is open */
+.gamePage.blurred {
+  filter: blur(5px);
+  pointer-events: none; /* Disables interactions with blurred background */
+}
+
+/* Body overflow and pointer-events when popup is open */
+body.popup-open {
+  overflow: hidden; /* Prevent scrolling on the background */
+}
+
+/* Popup overlay styling */
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure it’s above all other content */
+}
+
+/* Popup content styling */
+.popupContent {
+  background-color: rgb(50,55,63,255);
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 40%;
+  text-align: center;
+  z-index: 1001; /* Ensure it’s above the overlay */
+  animation: fadeIn 0.3s ease-in-out;
+  border-top: 1px solid linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
+  border-radius: 10px;
+}
+
+/* Popup fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

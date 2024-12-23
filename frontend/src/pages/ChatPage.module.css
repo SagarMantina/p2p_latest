@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Nabla&family=Orbitron:wght@400..900&family=Russo+One&family=Silkscreen:wght@400;700&display=swap');
+
+.fullchat{
+  height: 100vh;
+  width: 100%;
+}
+
+.chatContainer {
+  width: 100%;
+  display: flex;
+  font-family: "Russo One", sans-serif;
+  font-weight: 100;
+  height: 645px;
+}
+
+.contacts {
+  width: 25%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-right: 2px solid #ececec;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.contacts a{
+  text-decoration: none;
+  color: white;
+}
+
+.contacts a:hover{
+  color: yellow;
+}
+
+.contacts h3{
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.contacts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contacts li {
+  padding: 5px 10px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  color:black;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  display: flex;
+  gap: 20px;
+}
+
+.contacts li:hover {
+  background-color: #f1f9ff;
+  transform: scale(1.05);
+}
+
+ 
+.active {
+  background-color: #f0f0f0;
+  box-shadow: 0 3px 10px rgba(0, 123, 255, 0.3);
+}
+
+
+.newchat{
+  text-align: start;
+  color:greenyellow;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.chatWindow {
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.chatWindow h3 {
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+
+.messages {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.sentMessage {
+  position: relative;
+  left: 85%;
+  padding-right: 20px;
+  text-align: right;
+  color: rgb(229, 229, 238);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  margin: 4px;
+  justify-content: space-around;
+  gap: 10px;
+  width: max-content;
+  border-radius: 5px;
+}
+
+.sentMessage p{
+  padding: 0 10px;
+  font-size: 1.2rem;
+  color: black;
+}
+
+.sentMessage span{
+  position: relative;
+  top: 15px;
+  color: black;
+}
+
+.receivedMessage {
+  padding-right: 20px;
+  text-align: left;
+  color: rgb(235, 240, 235);
+  background-color: black;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  margin: 2px;
+  justify-content: space-around;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.receivedMessage p{
+  padding: 0 10px;
+  font-size: 1.2rem;
+}
+
+.receivedMessage span{
+  position: relative;
+  top: 15px;
+}
+
+.messageForm {
+  display: flex;
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+
+.messageInput {
+  flex: 1;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.sendButton {
+  padding: 10px 15px;
+}
+
+
+.newchatform{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin: 10px;
+  
+}
+
+.newchatform input{
+  width: 75%;
+  height: 5vh;
+  border-radius: 5%;
+}
+
+.newchatform button{
+  color: black;
+  width: 20%;
+  background-color: greenyellow;
+}

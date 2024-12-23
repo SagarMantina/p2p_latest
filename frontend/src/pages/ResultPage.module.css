@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Creepster&family=Diplomata+SC&family=Doto:wght@100..900&family=Faster+One&family=Foldit:wght@100..900&family=Nabla&family=Orbitron:wght@400..900&family=Protest+Revolution&family=Russo+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Sriracha&family=Zen+Dots&display=swap');
+
+
+
+.resultpage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.resultpage h1{
+    font-size: 3rem;
+    color: white;
+    font-family: "Zen Dots", sans-serif;
+
+}
+
+.result{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

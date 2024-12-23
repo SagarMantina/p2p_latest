@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Zen+Dots&display=swap');
+
+.login {
+  background-image: url(../../public/joy.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25%;
+  font-family: "Bokor", system-ui;
+  font-size: 1rem;
+}
+
+.login .pname h1 {
+  font-size: 15rem;
+  color: white;
+}
+
+.login .container-login {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background: transparent;
+  color: white;
+  border-radius: 25px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  position: relative;
+}
+
+.login .container-login .header-login {
+  margin-bottom: 20px;
+}
+
+.login .container-login .form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height:300px;
+}
+
+.login .container-login .form-login .input-box {
+  position: relative;
+  width: 80%;
+  margin: 15px;
+  padding-bottom: 20px;
+}
+
+.login .container-login .form-login .input-box input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  transition: 0.3s ease;
+  font-family: "Bokor", system-ui;
+  font-size: 1.3rem;
+}
+
+.login .container-login .form-login .input-box input:focus {
+  border-bottom: 1px solid yellow; /* Change bottom border color on focus */
+  box-shadow: none;
+}
+
+
+.login .container-login .form-login .input-box .labelBx {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  color:white;
+  font-size: 1.4em;
+  pointer-events: none;
+  transition: 0.3s ease;
+  font-weight: 0;
+}
+
+.login .container-login .form-login .input-box input:focus + .labelBx,
+.login .container-login .form-login .input-box input:not(:placeholder-shown) + .labelBx {
+  top: -32%; /* This moves the label up by 15px */
+}
+
+.login .container-login .form-login .input-box .icon{
+  position: absolute;
+  top: 15%;
+  right: 15px;
+}
+
+.login .container-login .form-login .show-forgot{
+  width: 75%;
+  display: flex; /* Use flex layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center vertically */
+}
+
+.forgot-password-link {
+  margin-left: 10px; /* Space between the checkbox and the link */
+}
+
+.forgot-password {
+  color: yellow; /* Link color */
+  text-decoration: underline; /* Underline for better visibility */
+}
+
+.login .container-login .form-login .button-login {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #333;
+  width: 200px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 15px;
+  font-family: "Bokor", system-ui;
+  font-size: 1rem;
+}
+
+.login .container-login .form-login .button-login:hover{
+  background-color: #45a049;
+}
+
+.register-text-login {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+.register-link-login {
+  color: yellow;
+  text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+.sellerpage{
+    width: 100%;
+    overflow: hidden;
+}
+
+.sellerpage .sellsidebar{
+    width: 15%;
+    height: 100vh; 
+    position: fixed; 
+    top: 10%;
+    left: 0;
+    background-color:transparent;
+    padding-top: 20px;
+    color: white;
+    overflow-y: auto;
+}
+
+.sellerpage .sellsidebar ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.sellerpage .sellsidebar  ul li {
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+  }
+
+.sellerpage .sellsidebar li:hover {
+    background-color: #1d31e4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+  } */
+
+ .sellerpage .sellsidebar ul li .svg-inline--fa {
+    margin-right: 10px; 
+    color: white; 
+  }

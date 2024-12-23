@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Rajdhani:wght@300;400;500;600;700&family=Yatra+One&display=swap');
+.admin-dashboard {
+  width: 70%;
+  padding: 2rem;
+  background-color:  aliceblue;
+  min-height: 100vh;
+  position: relative;
+  left: 20%;
+}
+
+.dashboard-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2d3748;
+}
+
+.dashboard-metrics {
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-family: "Black Ops One", system-ui;
+}
+
+@media (min-width: 768px) {
+  .dashboard-metrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .dashboard-metrics {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.metric-card {
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  width: 40%;
+  height: 120px; /* Fixed height for uniformity */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between count and icon */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.metric-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.metric-card h2 {
+  font-size: 1.5rem; /* Slightly larger font size */
+  font-weight: 600;
+  color: #4a5568;
+  margin: 0; /* Remove margin */
+}
+
+.metric-card p {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin: 0; /* Remove margin */
+}
+
+.metric-card small {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: #52df46;
+}
+
+/* Icon Styling */
+.metric-icon {
+  font-size: 40px; /* Size of the icon */
+  color: #129dee; /* Color of the icons */
+}
+
+.chart-container {
+  margin-top: 2.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Black Ops One", system-ui;
+}
+
+.chart-container canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    padding: 1rem;
+  }
+}
+
+.graph-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #2d3748;
+}

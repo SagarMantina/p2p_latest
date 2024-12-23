@@ -1,0 +1,106 @@
+.purchaseitems{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.purchaseitems .items{
+    background-color: rgba(19,54,76,255);
+}
+
+.purchaseitems .cost{
+    background-color: rgba(19,54,76,255);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: medium;
+}
+
+.purchaseitems .cost .subtotal{
+    width: 20%;
+    position: relative;
+    left: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.purchaseitems .cost .tax{
+    width: 20%;
+    position: relative;
+    left: 80%;
+    top: -10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.purchaseitems .cost .total{
+    width: 20%;
+    position: relative;
+    left: 80%;
+    top: -10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+hr {
+    color: white;
+    width: 50%;
+    height: 0px;
+    position: relative;
+    top: -10%;
+    left: 23%;
+}
+
+.accountinfo{
+    padding: 20px;
+    color: white;
+    background-color: rgba(19,54,76,255);
+    font-weight: 0;
+}
+
+
+.finalpayment{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+}
+
+.accountinfo{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.accountinfo:nth-child(2) select{ 
+    background-color: rgba(13,19,27,255);
+    border: 1px solid #000;
+    border-radius: 3px;
+    border: none;
+    font-size: 19px;
+    font-family:'Times New Roman', Times, serif;
+    color: greenyellow;
+    box-shadow: 2px 2px #417a9b;
+    height: 40px;
+}
+
+.agree_submit{
+    background-color: rgba(19,54,76,255);
+    color: white;
+    padding: 20px;
+}
+
+.agree_submit button{
+    position: relative;
+    left: 80%;
+    width: 20%;
+    height: 40px;
+    background-color: greenyellow;
+    color: black;
+    font-family: inherit;
+    font-size: larger;
+    cursor: pointer;
+}

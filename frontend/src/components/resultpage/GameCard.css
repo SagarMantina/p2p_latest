@@ -1,0 +1,56 @@
+.gameCard{
+    cursor: pointer;
+    width: 100%;
+    background-color: #414954;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 20px;
+    font-family: "Rajdhani", sans-serif;
+}
+
+.gameCardImage{
+    width: 30%;
+}
+
+.gameCardImage img{
+    width: 100%;
+}
+
+.gameCardInfo p:nth-child(1){
+    color: white;
+}
+
+.gameCardInfo span{
+    color: rgb(215, 206, 206);
+}
+
+.gameCardInfo p:nth-child(3){
+    color: rgb(57, 160, 200);
+}
+
+.gameCardPrice{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: absolute;
+    left:65%;
+}
+
+.gameCardPrice .price{
+    background-color: aqua;
+    color:black ;
+    font-size: large;
+    padding: 10px;
+    text-align: center;
+}
+
+.gameCardPrice .cart{
+    background-color:greenyellow;
+    color:black;
+    font-size:large;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}

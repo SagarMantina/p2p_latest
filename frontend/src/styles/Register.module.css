@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Zen+Dots&display=swap');
+
+.wrapper-register {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-family: "Bokor", system-ui;
+    background: url(../../public/register_background.jpg);
+}
+
+.wrapper-register::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.register-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 27%;
+    background: transparent;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+   
+}
+
+.registrationForm{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.error-message{
+    color: red;
+    font-size: larger;
+}
+
+.wrapper-register  .register-box h2 {
+    font-size: 2em;
+    color: yellow;
+}
+
+
+.inputBx-register {
+    position: relative;
+    left: 8%;
+    width: 75%;
+    margin: 5% 15% 2% 0.5%;
+    border-bottom: 1px solid #fff;
+}
+
+.inputBx-register label {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.inputBx-register input:focus~label,
+.inputBx-register input:valid~label {
+    top: -1px;
+}
+
+.inputBx-register input {
+    width: 100%;
+    position: relative;
+    border: none;
+    height: 50px;
+    outline: none;
+    font-size: 1em;
+    color: white;
+    padding: 0 35px 0 5px;
+    background: transparent;
+    font-family: "Bokor", system-ui;
+    font-size: 1.2em;
+}
+
+.wrapper-register .register-box .new-register{
+    width: 50%;
+}
+
+.wrapper-register .register-box .new-register button{
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+    font-family: "Bokor", system-ui;
+}
+
+.paragraph-register a {
+    text-decoration: none;
+    color: yellow;
+}
+
+.paragraph-register a:hover {
+    text-decoration: underline;
+}
+
+.paragraph-register {
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    margin-top: 1.25rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .register-box {
+        width: 80%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .register-box {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper-register {
+        padding: 20px;
+    }
+
+    .register-box {
+        width: 100%;
+    }
+
+    .inputBx-register {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .new-register button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+.new-register button a {
+    text-decoration: none;
+}
+
+h4 {
+    color: rgb(236, 20, 20);
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Roboto Slab', serif;
+}
+
+.inputBx-register box-icon {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+  }
+
+  .selectBx-register{
+    position: relative;
+    width: 310px;
+    margin: 30px 40px;
+   
+  }
+
+
+.selectBx-register select {
+    width: 100%;
+    font-family: "Bokor", system-ui;
+    height: 50px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-bottom: 1px solid #fff;
+    font-size: 1.3em;
+    padding-left: 5px;
+    appearance: none; /* Remove default dropdown arrow */
+  }
+
+
+  .selectBx-register option {
+    background:white; /* Set background of options to black */
+    color: black; /* Match text color */
+  }
+  
+  .selectBx-register::after {
+    content: '▼'; /* Custom dropdown arrow */
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    color: white;
+    pointer-events: none;
+  }

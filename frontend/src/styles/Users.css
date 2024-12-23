@@ -1,0 +1,126 @@
+/* Users.css */
+
+.admin-dashboard {
+  padding: 2rem;
+  background-color: #edf0ed;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2d3748;
+}
+
+.dashboard-metrics {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+@media (min-width: 768px) {
+  .dashboard-metrics {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .dashboard-metrics {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.metric-card1,.metric-card2,.metric-card3{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 300px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  text-align: center;
+}
+
+.metric-card1:hover,.metric-card2:hover,.metric-card3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.metric-card1 {
+  background-color: #cbee07;
+}
+
+.metric-card2 {
+  background-color: #4299e1;
+}
+
+.metric-card3 {
+  background-color: #16eca5;
+}
+
+.metric-card h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #4a5568;
+}
+
+.metric-card p {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #1a202c;
+  margin-top: 1rem;
+}
+
+.chart-container {
+  margin-top: 2.5rem;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chart-container canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+    padding: 1rem;
+  }
+}
+
+
+
+.metric-card {
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 400px; /* Adjusted width for a rectangle */
+  height: 120px; /* Fixed height */
+  display: flex; /* Flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between items */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.metric-icon {
+  font-size: 40px; /* Size of the icon */
+  color: #129dee; /* Icon color */
+}
+
+.metric-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+}

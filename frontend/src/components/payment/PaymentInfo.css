@@ -1,0 +1,123 @@
+.paymentinfo{
+    width: 60%;
+    background:rgba(22,32,45,255);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.paymentinfo .options{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    color: white;
+    gap: 5px;
+}
+
+.paymentinfo .options select{
+    background-color: rgba(13,19,27,255);
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    line-height: 21px;
+    font-size: 19px;
+    font-family: "Chakra Petch", sans-serif;
+    color: white;
+    box-shadow: 2px 2px #417a9b;
+}
+
+.paymentinfo .options select:hover{
+    background: linear-gradient(-60deg, #417a9b 5%, #67c1f5 95%);
+    box-shadow: 2px 3px #417a9b;
+}
+
+.paymentinfo .options option{
+    background-color:#67c1f5;
+    color: black;
+}
+
+.paymentinfo .options option{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 0;
+}
+
+.carddetails p{
+    color: white;
+    font-weight: -10;
+    font-size: large;
+}
+
+
+.billingdetails p{
+    color: white;
+    font-weight: -10;
+    font-size: large;
+}
+
+.billinginfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.name-fields{
+    width: 67%;
+    display: flex;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column; /* Stack label above input */
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: -10;
+    color: white;
+}
+
+.input-group input {
+    width: 50%;
+    background-color: rgba(13,19,27,255);
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    line-height: 21px;
+    font-size: 19px;
+    font-family: "Chakra Petch", sans-serif;
+    color: white;
+    box-shadow: 2px 2px #417a9b;
+}
+
+.continueBtn{
+    width: 20%;
+    height: 40px;
+    position: relative;
+    left: 70%;
+    background-color: greenyellow;
+    font-family: inherit;
+    color:black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.continueBtn:hover{
+    transform: translateY(-2px);
+}
+
+.continueBtn:active{
+    transform: translateY(1px); /* Slight press-down effect */
+}
+
+
+

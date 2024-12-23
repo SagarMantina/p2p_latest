@@ -1,0 +1,53 @@
+.cartcard{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    background-color: rgba(21,31,44,255);
+    padding: 20px 20px 0 20px;
+    color: white;
+    font-size: larger;
+    border-radius: 5px;
+    transition: all 1s ease; /* Smooth transition for shrinking */
+}
+
+.cartcard .mainframe{
+    width: 65%;
+    height:120px;
+}
+
+.cartcard .mainframe img{
+    width: 100%;
+    height: 120px;
+    object-fit:fill;
+}
+
+.cartcard .cartinfo{
+    width: 70%;
+}
+
+.cartcard .cartinfo .Icons{
+    display: flex;
+    justify-content:flex-start;
+    gap: 10px;
+}
+
+.cartcard .cartinfo p:nth-child(1){
+    text-align: start;
+    font-weight: 50;
+}
+
+.cartcard .cartinfo p:nth-child(3){
+    text-align: right;
+}
+
+.cartcard .cartinfo .removeItm{
+    text-align: right;
+    cursor: pointer;
+    color: gray;
+    font-size: medium;
+}
+
+.cartcard .cartinfo .removeItm:hover{
+    color: red;
+}
+

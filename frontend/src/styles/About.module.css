@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Diplomata+SC&family=Doto:wght@100..900&family=Faster+One&family=Foldit:wght@100..900&family=Nabla&family=Orbitron:wght@400..900&family=Protest+Revolution&family=Russo+One&family=Share+Tech+Mono&family=Silkscreen:wght@400;700&family=Sriracha&display=swap');
+
+
+.aboutpage {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(8, 8, 8, 255);
+    overflow: hidden;
+}
+
+.firstpart {
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: "Audiowide", sans-serif;
+}
+
+.firstpartcontent {
+    width: 40%;
+    color: white;
+}
+
+.firstpartcontent p {
+    width: 90%;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.firstpartcontent p::first-letter {
+    font-size: 30px;
+}
+
+.firstpartcontent img {
+    width: 30%;
+    height: 150px;
+}
+
+.firstpartvideo .myvideo {
+    height: 400px;
+    box-shadow: 0px 0px 10px aqua;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.secondpart {
+    width: 100%;
+    background: url("../../public/images/wallpaperflare.com_wallpaper_\(2\).jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    color: white;
+    padding: 40px 40px 40px 40px;
+    font-family: "Audiowide", sans-serif;
+}
+
+.secondpartcontent {
+    position: relative;
+    left: 7%;
+    width: 50%;
+}
+
+.secondpartcontent h1 {
+    position: relative;
+    left: 5%;
+}
+
+.secondpart .believes {
+    display: block;
+    padding: 30px;
+}
+
+.believes li {
+    position: relative;
+    width: 90%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.believes li::before {
+    content: '';
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-size: 10px;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/5087/5087379.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5px;
+    flex-shrink: 0;
+    margin-top: 5px;
+}
+
+
+.thirdpart {
+    margin: 5% 3% 5% 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.thirdpart .thirdpartcontent {
+    width: 30%;
+    color: white;
+   font-family: "Audiowide", sans-serif;
+}
+
+.thirdpart .thirdpartcontent h1 {
+    font-size: 30px;
+}
+
+
+.thirdpart .thirdpartcontent p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.thirdpart .thirdpartcontent a {
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 26%;
+    top: 15px;
+    color: cyan;
+}
+
+
+
+.game_image {
+    position: relative;
+    padding: 20px;
+}
+
+#games_col_right .game_image img {
+    width: 237px;
+    height: 95px;
+}

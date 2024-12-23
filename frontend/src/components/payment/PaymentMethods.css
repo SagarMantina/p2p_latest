@@ -1,0 +1,15 @@
+.paymentmethods{
+    background:rgba(22,32,45,255);
+    color: whitesmoke;
+    height: fit-content;
+    padding: 20px;
+}
+.paymentImages{
+    display: flex;
+    gap: 10px;
+}
+.paymentImages img{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
