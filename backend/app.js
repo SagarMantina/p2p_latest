@@ -17,10 +17,32 @@ const router = require("./routes/router");
 const port = process.env.PORT || 3000;
 
 // Middleware
-app.use(cors({
-  origin: "http://localhost:5000", // Replace with your frontend's origin
-  credentials: true,
-}));
+
+
+const allowedOrigins = [
+  'http://localhost:5000', // Local frontend during development
+  'https://p2p-latest.onrender.com', // Deployed frontend
+];
+
+// app.use(cors({
+//   origin: "http://localhost:5000", // Replace with your frontend's origin
+//   credentials: true,
+// }));
+
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      // Allow requests with no origin (like mobile apps or curl)
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error('Not allowed by CORS'));
+      }
+    },
+    credentials: true, // Include credentials like cookies or authentication headers
+  })
+);
+
 app.use(cookieParser());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
